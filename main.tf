@@ -14,7 +14,7 @@ provider "aws" {
   default_tags {
     tags = {
       env = "qa"
-      email       = "madhu@rafay.co"
+      email       = "akshay@rafay.co"
     }
   }
 }
@@ -31,7 +31,7 @@ resource "aws_instance" "ubuntu" {
   }
   volume_tags = {
     env = "qa"
-    email       = "madhu@rafay.co"
+    email       = "akshay@rafay.co"
   }
 }
 
@@ -47,7 +47,7 @@ resource "aws_instance" "ubuntu-1" {
   }
   volume_tags = {
     env = "qa"
-    email       = "madhu@rafay.co"
+    email       = "akshay@rafay.co"
   }
   depends_on = [aws_instance.ubuntu]
 }
