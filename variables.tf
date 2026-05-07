@@ -20,13 +20,13 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "madhu1-infra-provisioner"
+  default = "akshay1-infra-provisioner"
 }
 variable "name1" {
   description = "name to pass to Name1 tag"
-  default = "madhu2-infra-provisioner"
+  default = "akshay2-infra-provisioner"
 }
 variable "email" {
   description = "email"
-  default = "automation@rafay.co"
+  default = "akshay@rafay.co"
 }
